@@ -1,0 +1,13 @@
+[project]
+name = "tmib"
+version = "0.1.0"
+description = "Threat Model in a Box - generates lightweight STRIDE threat models from prompts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tmib = "tmib.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
